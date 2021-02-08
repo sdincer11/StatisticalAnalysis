@@ -15,4 +15,6 @@
 2) You must upload a CSV file for the returns of market risk factors (like CAPM, Fama-French 3 factors), where the date identifier
 must have the same name with the date identifier of the monthly security data file i.e, YYYYMM. You can find a sample for this file among this repository's files: "sample_factors.gz".
 
+3) Check ExamplePortfolioSort.py for example usages of how to create an object for the PortfolioSort class, and how to call its sorting methods.
+
 WARNING: You need to ensure that there won't be duplicate records per each (security identifier, date identifier) combination in the monthly security data(in the bullet 1 above) you add to your project folder. Otherwise, the program will NOT run.
