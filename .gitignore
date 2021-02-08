@@ -1,4 +1,6 @@
 venv*
-latex*
+latex\*
 *.xml
+*.iml
 sample_data.gz
+.idea/StatisticalAnalysis.iml
