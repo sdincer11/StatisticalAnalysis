@@ -1,0 +1,4 @@
+venv*
+latex*
+*.xml
+sample_data.gz
